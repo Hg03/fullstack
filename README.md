@@ -39,6 +39,7 @@ I've created a powerful template that helps you hit the ground running with all 
 Make sure you have the following installed:
 - 🐳 **Docker**
 - 🐍 **Python**
+- 📚 **Git**
 
 ---
 
@@ -47,17 +48,21 @@ Make sure you have the following installed:
 Ready to launch? Follow these simple steps:
 
 1. 📋 Use this repo as a **template**
-2. 🚀 Start the Docker service
-3. 🏗️ Build the container: 
+2. 📌 Replace `fullstack` directory name with your required project name.
+3. 🚀 Start the Docker service
+4. 🏗️ Build the container: 
+
    ```bash
    docker build -t <container_name> -f dockerfile .
    ```
 4. ▶️ Run the container: 
+
    ```bash
    docker run -t -d <container_name>
    ```
 5. 🔗 Once the container is running, right-click and **attach with Visual Studio Code**
 6. 🌟 Activate your virtual environment: 
+
    ```bash
    source .venv/bin/activate
    ```
