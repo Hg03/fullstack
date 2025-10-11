@@ -9,14 +9,14 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Set working directory
-WORKDIR /app
+WORKDIR /fullstack
 
 # Copy project files
 COPY . .
 
 # Configure uv to use a .venv in the workdir and add it to PATH
 ENV UV_PROJECT_ENVIRONMENT=.venv \
-    PATH="/app/.venv/bin:${PATH}"
+    PATH="/fullstack/.venv/bin:${PATH}"
 
 # Install Python dependencies from pyproject.toml
 RUN uv sync --no-dev
