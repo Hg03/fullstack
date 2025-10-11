@@ -1,6 +1,10 @@
-class InferencePipeline:
-    def __init__(self, config):
-        self.config = config
+from typing import Any
 
-    def fire(self):
+
+class InferencePipeline:
+    def __init__(self, input_data):
+        self.input_data = input_data
+
+    def fire(self) -> Any:
         print("Take the features, take the model, serve the predictions..")
+        return {}
