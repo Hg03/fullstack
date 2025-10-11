@@ -1,0 +1,3 @@
+# If you need to run ml pipeline in your own custom way, like below
+type: "full" # running full pipeline or feature or training etc.
+local: false # running local only for testing purpose
