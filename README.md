@@ -1,34 +1,66 @@
-# Full Stack ML Project Template
+# 🚀 Full Stack ML Project Template
 
-### Table of Content
-1. [Brief](#brief)
-2. [Utility](#utility)
-3. [Prerequisites](#prerequisites)
-4. [Start](#start)
+### 📑 Table of Content
+1. [✨ Brief](#brief)
+2. [🛠️ Utility](#utility)
+3. [📋 Prerequisites](#prerequisites)
+4. [🎯 Start](#start)
 
-### Brief
+---
 
-Introducing Machine Learning Project Template. Let me share you the reason behind creating this. Everytime, when we are start with project, so much things travel around our cute little brain i.e. I need to **dockerize** the whole project, create **reproducible configuration management**, perform the **modularization** in an efficient way, make some **shortcuts** through which we can trigger some scripts quickly, creating **github actions** workflow. In this template, I covered all of these to get you started asap.
+### ✨ Brief
 
-### Utility
+Introducing the **Machine Learning Project Template** – your shortcut to production-ready ML projects! 🎉
 
-I only created a template which helps you get started with all of the above steps. I haven't included __sklearn, mlflow__ etc. This will vary based on your separate usecases. I added utilities as below:
+Let me share the story behind creating this. Every time we start a new project, our minds race with endless tasks: 
+- 🐳 Need to **dockerize** the entire setup
+- ⚙️ Create **reproducible configuration management**
+- 🧩 Perform **modularization** efficiently
+- ⚡ Set up **shortcuts** to trigger scripts quickly
+- 🔄 Configure **GitHub Actions** workflows
 
-- **Dockerization and Environment Management**: Docker, UV
-- **Configuration Management**: Hydra-Core
-- **Commandline Shortcuts**: Justfile
-- **Type Checking & Formatting**: Ruff, Ty with pre commit
+This template covers **all of these** to get you started ASAP! No more reinventing the wheel – just clone, customize, and code! 💪
 
-### Prerequisites
+---
 
-Make sure, you have **docker** and **python** installed.
+### 🛠️ Utility
 
-### Start
+I've created a powerful template that helps you hit the ground running with all the essential tools. I haven't included `sklearn`, `mlflow`, etc., as these will vary based on your specific use cases. Here's what's included:
 
-- Use this repo as **template**.
-- Start the docker service.
-- Build the containter: `docker build -t <container_name> -f dockerfile .`.
-- Run the container: `docker run -t -d <container_name>`.
-- Once container is in running state, right click and **attach with visual studio code**.
-- Activate your virtual environment: `source .venv/bin/activate`.
-- Start customizing your project as per your usecase.
+- 🐳 **Dockerization and Environment Management**: Docker, UV
+- ⚙️ **Configuration Management**: Hydra-Core
+- ⚡ **Command-line Shortcuts**: Justfile
+- ✅ **Type Checking & Formatting**: Ruff, Typer with pre-commit hooks
+
+---
+
+### 📋 Prerequisites
+
+Make sure you have the following installed:
+- 🐳 **Docker**
+- 🐍 **Python**
+
+---
+
+### 🎯 Start
+
+Ready to launch? Follow these simple steps:
+
+1. 📋 Use this repo as a **template**
+2. 🚀 Start the Docker service
+3. 🏗️ Build the container: 
+   ```bash
+   docker build -t <container_name> -f dockerfile .
+   ```
+4. ▶️ Run the container: 
+   ```bash
+   docker run -t -d <container_name>
+   ```
+5. 🔗 Once the container is running, right-click and **attach with Visual Studio Code**
+6. 🌟 Activate your virtual environment: 
+   ```bash
+   source .venv/bin/activate
+   ```
+7. 🎨 Start customizing your project according to your use case!
+
+---
