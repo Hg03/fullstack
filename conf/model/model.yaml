@@ -1,0 +1,5 @@
+models:
+  model_you_like_let_say_random_forest:
+    your_required_hyperparameter:
+    - value1
+    - value2

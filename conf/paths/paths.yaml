@@ -1,0 +1,7 @@
+raw: data/raw/raw.csv
+processed: data/processed/processed.csv
+processed_train: data/processed/train.csv
+processed_test: data/processed/test.csv
+preprocessor: models/preprocessor.joblib
+models: models/
+mlruns: mlruns/

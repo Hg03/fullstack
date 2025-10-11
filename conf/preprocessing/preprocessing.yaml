@@ -1,0 +1,4 @@
+features:
+  to_keep:
+    - feature1
+    - feature2

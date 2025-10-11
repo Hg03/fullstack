@@ -1,0 +1,6 @@
+defaults:
+  - paths: paths.yaml
+  - preprocessing: preprocessing.yaml
+  - model: model.yaml
+  - evaluation: evaluation.yaml
+  - pipeline: pipeline.yaml
