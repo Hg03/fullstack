@@ -43,7 +43,7 @@ jobs:
           PYTHONUNBUFFERED: 1
       
       - name: Upload model artifacts
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v4
         if: success()
         with:
           name: trained-model
