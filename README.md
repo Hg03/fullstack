@@ -48,9 +48,12 @@ Make sure you have the following installed:
 Ready to launch? Follow these simple steps:
 
 1. 📋 Use this repo as a **template**
-2. 📌 Replace `fullstack` directory name with your required project name.
-3. 🚀 Start the Docker service
-4. 🏗️ Build the container: 
+2. 📌 Replace `fullstack` keyword with your required project name.
+   1. src/`fullstack` directory name.
+   2. `packages = ["src/spotify_churn_system"]` at pyproject.toml
+   3. import `fullstack` as a module.
+4. 🚀 Start the Docker service
+5. 🏗️ Build the container: 
 
    ```bash
    docker build -t <container_name> -f dockerfile .
