@@ -25,7 +25,7 @@ def validate_project_slug():
 
 def validate_python_version():
     """Validate Python version format."""
-    version_regex = r'^\d+\.\d+
+    version_regex = r'^\d+\.\d+'
 
 
 if __name__ == "__main__":
