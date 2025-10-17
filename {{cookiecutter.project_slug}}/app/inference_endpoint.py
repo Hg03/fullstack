@@ -1,5 +1,5 @@
-from fullstack.pipelines.inference_pipeline import InferencePipeline
-from fullstack.scripts.inference_utils import RequestData
+from {{cookiecutter.project_slug}}.pipelines.inference_pipeline import InferencePipeline
+from {{cookiecutter.project_slug}}.scripts.inference_utils import RequestData
 from fastapi import FastAPI
 import uvicorn
 from pydantic import BaseModel, Field

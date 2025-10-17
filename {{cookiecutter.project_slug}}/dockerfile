@@ -1,4 +1,4 @@
-FROM astral/uv:python3.12-bookworm-slim
+FROM astral/uv:python{{ cookiecutter.python_version }}-bookworm-slim
 
 # Install system packages
 RUN apt-get update && \
@@ -9,14 +9,14 @@ RUN apt-get update && \
     rm -rf /var/lib/apt/lists/*
 
 # Set working directory
-WORKDIR /fullstack
+WORKDIR /{{ cookiecutter.project_slug }}
 
 # Copy project files
 COPY . .
 
 # Configure uv to use a .venv in the workdir and add it to PATH
 ENV UV_PROJECT_ENVIRONMENT=.venv \
-    PATH="/fullstack/.venv/bin:${PATH}"
+    PATH="/{{ cookiecutter.project_slug }}/.venv/bin:${PATH}"
 
 # Install Python dependencies from pyproject.toml
 RUN uv sync --no-dev
