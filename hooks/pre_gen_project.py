@@ -26,17 +26,6 @@ def validate_project_slug():
 def validate_python_version():
     """Validate Python version format."""
     version_regex = r'^\d+\.\d+'
-
-
-if __name__ == "__main__":
-    validate_project_slug()
-    validate_python_version()
-    
-    print("✓ Project name validation passed")
-    print("✓ Python version validation passed")
-    print("\nGenerating project...")
-
-    
     if not re.match(version_regex, PYTHON_VERSION):
         print(f"ERROR: '{PYTHON_VERSION}' is not a valid Python version!")
         print("Please use format: X.Y (e.g., 3.12, 3.11)")
@@ -48,6 +37,7 @@ if __name__ == "__main__":
         print(f"ERROR: Python {PYTHON_VERSION} is not supported!")
         print("Please use Python 3.10 or higher")
         sys.exit(1)
+
 
 
 if __name__ == "__main__":
