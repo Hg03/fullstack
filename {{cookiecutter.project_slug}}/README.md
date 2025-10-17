@@ -1,6 +1,6 @@
 # 🚀 Full Stack ML Project Template
 
-### 📑 Table of Content
+### 📑 Table of Contents
 1. [✨ Brief](#brief)
 2. [🛠️ Utility](#utility)
 3. [📋 Prerequisites](#prerequisites)
@@ -12,7 +12,7 @@
 
 Introducing the **Machine Learning Project Template** – your shortcut to production-ready ML projects! 🎉
 
-Let me share the story behind creating this. Every time we start a new project, our minds race with endless tasks: 
+Let me share the story behind the creation of this. Every time we start a new project, our minds race with endless tasks: 
 - 🐳 Need to **dockerize** the entire setup
 - ⚙️ Create **reproducible configuration management**
 - 🧩 Perform **modularization** efficiently
@@ -48,12 +48,8 @@ Make sure you have the following installed:
 Ready to launch? Follow these simple steps:
 
 1. 📋 Use this repo as a **template**
-2. 📌 Replace `fullstack` keyword with your required project name.
-   1. src/`fullstack` directory name.
-   2. `packages = ["src/spotify_churn_system"]` at pyproject.toml
-   3. import `fullstack` as a module.
-4. 🚀 Start the Docker service
-5. 🏗️ Build the container: 
+2. 🚀 Start the Docker service
+3. 🏗️ Build the container: 
 
    ```bash
    docker build -t <container_name> -f dockerfile .
