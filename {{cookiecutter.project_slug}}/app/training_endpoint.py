@@ -1,5 +1,5 @@
-from fullstack.pipelines.feature_pipeline import FeaturePipeline
-from fullstack.pipelines.training_pipeline import TrainingPipeline
+from {{cookiecutter.project_slug}}.pipelines.feature_pipeline import FeaturePipeline
+from {{cookiecutter.project_slug}}.pipelines.training_pipeline import TrainingPipeline
 from omegaconf import DictConfig
 import hydra
 
