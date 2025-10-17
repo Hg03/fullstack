@@ -1,4 +1,4 @@
-FROM ghcr.io/astral-sh/uv:python3.12-bookworm
+FROM astral/uv:python3.12-bookworm-slim
 
 # Install system packages
 RUN apt-get update && \
